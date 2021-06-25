@@ -1,12 +1,12 @@
 # Metadata
-title: "SirRandoo's Purchase List"
+title: "TinyMuffy's Purchase List"
 favicon: assets/img/favicon.png
 description: A custom version of Toolkit's item list to support all the latest features of Utils.
 
 baseurl: '/itemlist' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ''
-github_username: 'sirrandoo'
+url: 'tinymuffy.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'TinyMuffy'
+github_username: 'tinymuffy'
 
 # Item list settings
 #
@@ -29,9 +29,9 @@ store:
     limit: true
     description: true
     usage: false
-    mod: true
+    mod: false
   kinds:
-    mod: true
+    mod: false
     karma: true
     usage: true
   items:
@@ -39,14 +39,14 @@ store:
     weight: true
     karma: true
     quantity: true
-    mod: true
+    mod: false
     usage: true
   events:
     usage: true
-    mod: true
+    mod: false
   animals:
     usage: true
-    mod: true
+    mod: false
     weight: true
     quantity: true
     karma: true
